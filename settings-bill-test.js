@@ -182,7 +182,7 @@ describe("critical and warning level", function(){
         settingsBill.sendSms();
 
 
-        assert.equal("critical", settingsBill.totalClassName());
+        assert.equal("danger", settingsBill.totalClassName());
         
     })
 
@@ -203,7 +203,7 @@ describe("critical and warning level", function(){
       
 
         assert.equal(10, settingsBill.getTotalCost());
-        assert.equal("critical", settingsBill.totalClassName());
+        assert.equal("danger", settingsBill.totalClassName());
         
     })
 
@@ -224,7 +224,7 @@ describe("critical and warning level", function(){
        
 
         assert.equal(10, settingsBill.getTotalCost());
-        assert.equal("critical", settingsBill.totalClassName());
+        assert.equal("danger", settingsBill.totalClassName());
 
         settingsBill.setCriticalLevel(20);
         assert.equal("warning", settingsBill.totalClassName());
