@@ -82,7 +82,6 @@ describe("use values", function(){
         settingsBill.setCallCost(1.75);
         settingsBill.setSmsCost(0.50);
         
-        //settingsBill.setWarningLevel(5)
 
         
         settingsBill.makeCall();
@@ -192,7 +191,6 @@ describe("critical and warning level", function(){
 
         settingsBill.setCallCost(2.50);
         settingsBill.setSmsCost(0.85);
-        //settingsBill.setWarningLevel(10);
         settingsBill.setCriticalLevel(10)
   
 
